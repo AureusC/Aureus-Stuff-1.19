@@ -1,6 +1,5 @@
 package com.aureusc.aureusstuff;
 
-import com.aureusc.aureusstuff.block.ModBlocks;
 import com.aureusc.aureusstuff.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,7 +21,6 @@ public class AureusStuff {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
