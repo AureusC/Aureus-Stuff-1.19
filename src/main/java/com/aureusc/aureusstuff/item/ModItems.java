@@ -17,6 +17,10 @@ public class ModItems {
             () -> new GlowBerryGogglesItem(ModArmorMaterials.GLOW_BERRY_GOGGLES, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.AUREUS_STUFF_TAB)));
 
+    public static final RegistryObject<Item> TEST_STAFF = ITEMS.register("test_staff",
+            () -> new ModAnimatedItem(new Item.Properties().tab(ModCreativeModeTab.AUREUS_STUFF_TAB)));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

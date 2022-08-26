@@ -1,7 +1,7 @@
 package com.aureusc.aureusstuff.event;
 
 import com.aureusc.aureusstuff.AureusStuff;
-import com.aureusc.aureusstuff.client.armor.GlowBerryGogglesRenderer;
+import com.aureusc.aureusstuff.client.renderer.armor.GlowBerryGogglesRenderer;
 import com.aureusc.aureusstuff.item.custom.GlowBerryGogglesItem;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;

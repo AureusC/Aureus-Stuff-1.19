@@ -1,4 +1,4 @@
-package com.aureusc.aureusstuff.client.armor;
+package com.aureusc.aureusstuff.client.renderer.armor;
 
 import com.aureusc.aureusstuff.AureusStuff;
 import com.aureusc.aureusstuff.item.custom.GlowBerryGogglesItem;

@@ -1,7 +1,6 @@
-package com.aureusc.aureusstuff.client.armor;
+package com.aureusc.aureusstuff.client.renderer.armor;
 
 import com.aureusc.aureusstuff.item.custom.GlowBerryGogglesItem;
-import software.bernie.geckolib3.model.AnimatedGeoModel;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class GlowBerryGogglesRenderer extends GeoArmorRenderer<GlowBerryGogglesItem> {
